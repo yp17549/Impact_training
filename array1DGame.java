@@ -11,7 +11,7 @@ public class array1DGame {
             a[i] = sc.nextInt();
         }
         for (int i = 0; i < n; i++) {
-
+                        
         }
     }
 }
