@@ -23,7 +23,9 @@ public class majorityelement {
             }
         }
         if (count == 0) {
-            System.out.println("Not having a majority element, Every element is similer.");
+            System.out.println("Not having a majority element.");
+        } else if (count == count) {
+            System.out.println("Not having a majority element,Every element is similer.");
         } else {
             System.out.println(c);
         }
