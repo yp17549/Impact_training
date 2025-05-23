@@ -14,9 +14,11 @@ public class maximumelementineachrow {
             }
         }
         for (int i = 0; i < rows; i++) {
+            int ma = 0;
             for (int j = 0; j < cols; j++) {
-                a[i][j] = sc.nextInt();
+                ma = Math.max(high, a[i][j]);
             }
+            System.out.println(ma);
         }
 
     }
