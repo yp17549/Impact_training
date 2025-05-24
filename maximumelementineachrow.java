@@ -16,7 +16,7 @@ public class maximumelementineachrow {
         for (int i = 0; i < rows; i++) {
             int ma = 0;
             for (int j = 0; j < cols; j++) {
-                ma = Math.max(ma, a[i][j]);
+                ma = Math.max(ma, a[j][i]);
             }
             System.out.println(ma);
         }
