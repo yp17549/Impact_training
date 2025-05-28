@@ -1,7 +1,5 @@
 // Java program for Merge Sort
 
-import java.io.*;
-
 class GfG {
 
     // Merges two subarrays of arr[].
