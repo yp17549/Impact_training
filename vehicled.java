@@ -30,6 +30,6 @@ public class vehicled {
         electricCar s = new electricCar();
         s.featuer();
         s.attribiutes();
-        s.featuers();
+        s.featuers();x  
     }
 }
